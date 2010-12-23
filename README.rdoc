@@ -1,0 +1,15 @@
+= Identifier
+
+Identifier is a Ruby unique identifier that wraps the UNIX, Linux and OS X 'uuidgen'.
+
+== Installation
+
+  gem install identifier
+  
+== Examples
+
+  Identifier.generate
+
+== Copyright
+
+Copyright (c) 2010 Kevin Sylvestre. See LICENSE for details.
