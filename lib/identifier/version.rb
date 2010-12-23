@@ -1,3 +1,3 @@
-module Attached
+module Identifier
   VERSION = "1.0.0"
 end

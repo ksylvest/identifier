@@ -1,7 +1,8 @@
-class Identifier
+module Identifier
   
-  def generate
+  def self.generate
     `uuidgen`.strip
   end
 
 end
+
