@@ -6,6 +6,10 @@ Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and 
 
   gem install identifier
   
+== Requirements
+
+A UNIX, Linux or Mac OS X system with 'uuidgen' installed and included in the PATH.
+  
 == Examples
 
   Identifier.generate # "CFAA3C87-38C1-4357-8FA2-D862780736AE"
