@@ -1,7 +1,13 @@
 module Identifier
   
   def self.generate
-    `uuidgen`.strip
+    
+    begin
+      `uuidgen`.strip
+    rescue Errno::ENOENT
+      raise "uuidgen not found"
+    end
+    
   end
 
 end
