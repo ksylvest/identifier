@@ -10,6 +10,6 @@ Gem::Specification.new do |s|
   s.homepage    = "http://github.com/ksylvest/identifier"
   s.summary     = "A very basic unique identifier"
   s.description = "Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and OS X 'uuidgen'."
-  s.files       = Dir.glob("{bin,lib}/**/*") + %w(README.rdoc LICENSE Gemfile)
+  s.files       = Dir.glob("{bin,lib,ext}/**/*") + %w(README.rdoc LICENSE Gemfile)
 end
 
