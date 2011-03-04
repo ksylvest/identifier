@@ -16,4 +16,4 @@ A UNIX, Linux or Mac OS X system with 'uuidgen' installed and included in the PA
 
 == Copyright
 
-Copyright (c) 2010 Kevin Sylvestre. See LICENSE for details.
+Copyright (c) 2010 - 2011 Kevin Sylvestre. See LICENSE for details.
