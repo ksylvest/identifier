@@ -1,6 +1,6 @@
 = Identifier
 
-Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and Macintosh library 'uuid'.
+Identifier is a Ruby universally unique identifier generator that attempts to use the UNIX, Linux and Macintosh library 'uuid'. 
 
 == Installation
 
@@ -13,6 +13,12 @@ A UNIX, Linux, or Macintosh system with 'uuid' library installed.
 == Examples
 
   Identifier.generate # "CFAA3C87-38C1-4357-8FA2-D862780736AE"
+  
+== Performance
+
+Identifier  2.628164 seconds for 100,000 generations
+GUID       15.755870 seconds for 100,000 generations
+UUID       10.987766 seconds for 100,000 generations
 
 == Copyright
 
