@@ -16,9 +16,9 @@ A UNIX, Linux, or Macintosh system with 'uuid' library installed.
   
 == Performance
 
-Identifier  2.628164 seconds for 100,000 generations
-GUID       15.755870 seconds for 100,000 generations
-UUID       10.987766 seconds for 100,000 generations
+  Identifier  2.628164 seconds for 100,000 generations
+  GUID       15.755870 seconds for 100,000 generations
+  UUID       10.987766 seconds for 100,000 generations
 
 == Copyright
 
