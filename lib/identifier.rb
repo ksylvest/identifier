@@ -3,6 +3,7 @@ require 'identifier/identifier'
 begin
 require 'securerandom' 
 rescue LoadError
+end
 
 module Identifier
   
