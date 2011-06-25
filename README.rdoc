@@ -1,6 +1,6 @@
 = Identifier
 
-Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and OS X 'uuidgen'.
+Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and Macintosh library 'uuid'.
 
 == Installation
 
@@ -8,7 +8,7 @@ Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and 
   
 == Requirements
 
-A UNIX, Linux or Mac OS X system with 'uuidgen' installed and included in the PATH.
+A UNIX, Linux, or Macintosh system with 'uuid' library installed.
   
 == Examples
 
