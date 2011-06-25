@@ -1,6 +1,5 @@
 require 'mkmf'
 
-name = "identifier"
+have_library("uuid")
 
-dir_config(name)
-create_makefile(name)
+create_makefile("identifier")
