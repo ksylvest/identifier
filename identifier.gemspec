@@ -12,5 +12,8 @@ Gem::Specification.new do |s|
   s.summary     = "A very basic unique identifier"
   s.description = "Identifier is a Ruby unique identifier generator that wraps the UNIX, Linux and Macintosh 'uuid' library."
   s.files       = Dir.glob("{bin,lib}/**/*") + %w(README.rdoc LICENSE Gemfile)
+  
+  s.add_development_dependency "rake"
   s.add_development_dependency "rspec"
+  s.add_development_dependency "bundler"
 end
