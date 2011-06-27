@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    identifier (1.2.0)
+    identifier (1.1.0)
 
 GEM
   remote: http://rubygems.org/
