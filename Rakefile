@@ -11,6 +11,4 @@ Rake::TestTask.new 'test' do |t|
   t.pattern = 'test/*.rb'
 end
 
-task build: [:compile]
-
 Bundler::GemHelper.install_tasks
