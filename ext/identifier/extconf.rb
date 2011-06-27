@@ -1,5 +1,5 @@
 require 'mkmf'
 
-have_library("uuid")
+$defs.push("-DUUID") if have_library("uuid")
 
 create_makefile("identifier")
