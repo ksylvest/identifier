@@ -10,12 +10,11 @@ Identifier is a Ruby universally unique identifier generator that attempts to us
 
 The gem is tested with:
 
-# * Ruby (MRI) 1.9.2 (p180)
-# * Ruby (MRI) 1.8.7 (p334)
-# * Ruby (REE) 1.8.7 (2011.03)
-# * JRuby 1.6.2
-# * Rubinius 
- 
+* Ruby (MRI) 1.9.2 (p180)
+* Ruby (MRI) 1.8.7 (p334)
+* Ruby (REE) 1.8.7 (2011.03)
+* JRuby 1.6.2
+* Rubinius 
   
 == Examples
 
