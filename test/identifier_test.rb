@@ -1,8 +1,8 @@
-require 'identifier'
-
 require 'test/unit'
 
-class TestIdentifier < Test::Unit::TestCase
+require 'identifier'
+
+class IdentifierTest < Test::Unit::TestCase
   
   FORMAT = /\A\w{8}-\w{4}-\w{4}-\w{4}-\w{12}\Z/
 
