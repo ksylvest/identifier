@@ -1,21 +1,22 @@
 = Identifier
 
 Identifier is a Ruby universally unique identifier generator that attempts to use the UNIX, Linux and Macintosh library 'uuid'. 
-
-== Installation
-
-  gem install identifier
   
 == Requirements
 
 The gem is tested with:
 
+* Ruby (MRI) 1.9.3 (p0)
 * Ruby (MRI) 1.9.2 (p180)
 * Ruby (MRI) 1.8.7 (p334)
 * Ruby (REE) 1.8.7 (2011.03)
 * JRuby 1.6.2
 * Rubinius 1.2.4
-  
+
+== Installation
+
+  gem install identifier
+
 == Examples
 
   Identifier.generate # "CFAA3C87-38C1-4357-8FA2-D862780736AE"
