@@ -27,6 +27,10 @@ The gem is tested with:
   GUID       15.755870 seconds for 100,000 generations
   UUID       10.987766 seconds for 100,000 generations
 
+== Status
+
+{<img src="http://travis-ci.org/ksylvest/identifier.png" />}[http://travis-ci.org/ksylvest/identifier]
+
 == Copyright
 
 Copyright (c) 2010 - 2011 Kevin Sylvestre. See LICENSE for details.
