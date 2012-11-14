@@ -29,7 +29,7 @@ The gem is tested with:
 
 == Status
 
-{<img src="http://travis-ci.org/ksylvest/identifier.png" />}[http://travis-ci.org/ksylvest/identifier]
+{<img src="https://travis-ci.org/ksylvest/identifier.png" />}[https://travis-ci.org/ksylvest/identifier]
 
 == Copyright
 
